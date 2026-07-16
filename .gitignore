@@ -1,4 +1,27 @@
+# Lingkungan Virtual (Virtual Environments)
 venv/
+env/
+.env/
+.venv/
+
+# Cache Python & Bytecode
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Folder Temporary / Eksperimen
+scratch/
 .ipynb_checkpoints/
+
+# Konfigurasi IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS System Files
 .DS_Store
+Thumbs.db
+
+# File Streamlit
+.streamlit/
