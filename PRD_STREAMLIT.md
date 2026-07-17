@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD): Streamlit Web App
 
 ## 1. Tujuan Produk
-Aplikasi berbasis web (*Dashboard*) yang digunakan sebagai *Rapid Prototyping* untuk memvisualisasikan model *Machine Learning* (Prediksi Kelulusan Mahasiswa). Aplikasi ini memungkinkan tim *Data Science* untuk menguji model secara interaktif melalui *browser* tanpa perlu memikirkan arsitektur *backend* yang rumit.
+Aplikasi berbasis web (*Dashboard*) yang digunakan sebagai *Rapid Prototyping* untuk memvisualisasikan model *Machine Learning* (**Deteksi Dini Kelulusan Mahasiswa Pada Semester 4**). Aplikasi ini memungkinkan tim *Data Science* untuk menguji model secara interaktif melalui *browser* tanpa perlu memikirkan arsitektur *backend* yang rumit.
 
 ## 2. Target Pengguna
 - Tim Internal (Data Scientist, Analyst) untuk *testing* prediksi model.
@@ -14,13 +14,13 @@ Desain antarmuka dibuat menggunakan *layouting* dua kolom agar terlihat padat da
 - `Jenis Kelamin`: Input *Dropdown* (Pilihan: "Laki-laki", "Perempuan").
 - `Status Mahasiswa`: Input *Dropdown* (Pilihan: "Tidak Bekerja", "Bekerja").
 - `Status Nikah`: Input *Dropdown* (Pilihan: "Belum Menikah", "Menikah").
-- `Umur`: Input *Slider/Number* (Batasan: Min 17, Max 40, Default 20).
+- `Umur`: Input *Number* / Ketik Angka (Batasan: Min 17, Max 40, Default 20).
 
 **Kolom Kanan (Nilai Akademik):**
-- `IPS Semester 1`: Input *Slider/Number* (Batasan: 0.0 - 4.0).
-- `IPS Semester 2`: Input *Slider/Number* (Batasan: 0.0 - 4.0).
-- `IPS Semester 3`: Input *Slider/Number* (Batasan: 0.0 - 4.0).
-- `IPS Semester 4`: Input *Slider/Number* (Batasan: 0.0 - 4.0).
+- `IPS Semester 1`: Input *Number* / Ketik Angka (Batasan: 0.00 - 4.00).
+- `IPS Semester 2`: Input *Number* / Ketik Angka (Batasan: 0.00 - 4.00).
+- `IPS Semester 3`: Input *Number* / Ketik Angka (Batasan: 0.00 - 4.00).
+- `IPS Semester 4`: Input *Number* / Ketik Angka (Batasan: 0.00 - 4.00).
 
 **Tombol Eksekusi:**
 - Tombol lebar penuh (Use Container Width) bertuliskan **"Prediksi Sekarang!"**.
